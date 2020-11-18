@@ -3,72 +3,90 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mijn CV</title>
-    <link rel="stylesheet" href="css\style.css">
+    <title>U heeft gewonnen!!!</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <h1>Mijn CV</h1>
-    <h2>Mathieu Van daele</h2>
-    <!-- De opleidingen -->
-    <h3>Opleidingen</h3>
-    <div id="opleidingen">
-    <ul>
-    <li><table>
-      <tr>
-        <td><b>Netwerkbeheerder</b>, <i>Syntra-AB te Mechelen</i></td>
-        <td>21/09/2018 - 30/06/2019</td>
-      </tr>
-      <tr>
-        <td>Voltijdse dagopleiding, 8u / 5 dagen per week</td>
-      </tr>
-  </table></li>
-  </ul>
-  </div>
+    <!-- HEADER -->
+    <!-- Constantinus -->
+    <header>
+        <h2>U heeft gewonnen!!!</h2>
+        
+        <div id="header"></div>
+        <div class="head">
+            <p>Uitleg... Blablablabla Lorem Ipsum is slechts een proeftekst uit het drukkerij- en zetterijwezen. Lorem Ipsum is de standaard proeftekst in deze bedrijfstak sinds de 16e eeuw, toen een onbekende drukker een zethaak met letters nam en ze door elkaar husselde om een font-catalogus te maken. Het heeft niet alleen vijf eeuwen overleefd maar is ook, vrijwel onveranderd, overgenomen in elektronische letterzetting. Het is in de jaren '60 populair geworden met de introductie van Letraset vellen met Lorem Ipsum passages en meer recentelijk door desktop publishing software zoals Aldus PageMaker die versies van Lorem Ipsum bevatten.</p>
+            <img src="images/dm.png" alt="Polestar 2">
+        </div>
+        <a href="#details" class="button">Klik hier om alle details te zien.</a>
+    </header>
+
+    <!-- MAIN -->
+    <!-- Mathieu en Sven -->
+    <main>
+        <!-- Mathieu -->
+        <div id="details"></div>
+        <div class="details">   
+            <h2>Details</h2>
+            <div class="vakjes">
+                <div class="subvakjes">
+                    <h5>2 motoren</h5>
+                    <div class="streep"></div>
+                    <div id="content">Goed voor 408pk</div>
+                </div>
+                <div class="subvakjes">
+                    <h5>Hoge acceleratie</h5>
+                    <div class="streep"></div>
+                    <div id="content">0-100k/u in 4,7 seconden</div>
+                </div>
+                <div class="subvakjes">
+                    <h5>Redelijk bereik</h5>
+                    <div class="streep"></div>
+                    <div class="content">470km</div>
+                </div>
+                <!--<div class="subvakjes">
+                    <h5></h5>
+                </div>
+                <div class="subvakjes">
+                    <h5></h5>
+                </div>
+                <div class="subvakjes">
+                    <h5></h5>
+                </div>
+                <div class="subvakjes">
+                    <h5></h5>
+                </div>
+                <div class="subvakjes">
+                    <h5></h5>
+                </div>
+                <div class="subvakjes">
+                    <h5></h5>
+                </div>-->
+                <div class="enter">
+                    <a href="#dm" class="titel-dm">Doe mee!</a>
+                </div>
+            </div>
+        </div>    
+        
+        
+        <!-- Sven -->
+        <div id="dm">
+            <form name="contact" method="POST" data-netlify="true">
+                <label for="vraag1">Hoeveel is het bereik van de Polestar 2?</label><br>
+                <input type="text" id="vraag1" name="vraag1"><br>
+                <label for="vraag2">Hoeveel mensen nemen deel?</label><br>
+                <input type="text" id="vraag2" name="vraag2"><br><br>
+                <input type="submit" value="Verzenden">
+            </form>  
+        </div>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <!-- Contact gegevens -->
+        <p>Telefoon</p>
+    </footer>
     
-    <!-- De werkervaringen -->
-    <h3>Werkervaringen</h3>
-    <div id="werkervaring">
-    <ul >
-    <li><table>
-      <tr>
-        <td><b>Callcenter medewerker</b>, <i>CC De Stryker</i></td>
-        <td>08/03/2017 - 22/03/2017</td>
-      </tr>
-      <tr>
-        <td>8u per week, woensdag en zaterdag elks 4u</td>
-      </tr>
-    </table></li>
+    <!-- FIXED -->
 
-    <li><table>
-      <tr>
-        <td><b>Winkelverantwoordelijke</b> van de drankafdeling, <i>Carrefour Borgerhout</i></td>
-        <td>27/06/2018 - 06/07/2018</td>
-      </tr>
-      <tr>
-        <td>3 dagen van 8u verspreid over 2 weken</td>
-      </tr>
-    </table></li>
-
-    <li><table>
-      <tr>
-        <td><b>Zaakvoerder</b> van eigen hardware e-store, MaSaComputer</td>
-        <td>20/12/20196 - 31/08/2019</td>
-      </tr>
-      <tr>
-        <td>Verkoop (gaming) computers</td>
-      </tr>
-    </table></li>
-    </ul>
-    </div>
-
-    <!-- Vrije tijd -->
-    <h3>Vrije tijd</h3>
-    <div id="vrije_tijd">
-    <ul>
-        <li>Livestreamen op twitch</li>
-        <li>Gamen</li>
-        <li>Hardware, audio</li>
-    </ul>
-    </div>
 </body>
 </html>

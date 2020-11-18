@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .hoofdvakje {
+            /* een stijl */
+            background-color: rgba(0, 0, 255, 0.201);
+        }
+        .subvakjes {
+            float: left;
+            /* Zorgt voor de blokjes mooi links van elkaar */
+            width: 200px;
+            min-height: 200px;
+            margin: 20px;
+            background-color: blue;
+        }
+        .nieuwvakjes {
+            clear: both;
+            /* is nodig om het zwevende effect van de voorgaande blokjes teniet te doen */
+            width: 200px;
+            min-height: 200px;
+            margin: 20px;
+            background-color: rgb(255, 0, 162);
+        }
+    </style>
+</head>
+<body>
+    <div class="details">
+        <h2 class="titel">Details</h2>
+        
+        <div class="hoofdvakje">
+            <div class="subvakjes">
+                Snel
+            </div>
+            <div class="subvakjes">
+                Heel snel
+            </div>
+            <div class="subvakjes">
+                Super snel
+            </div>
+            <div class="nieuwvakjes">
+                WIN
+            </div>
+        </div>
+    </div> 
+</body>
+</html>

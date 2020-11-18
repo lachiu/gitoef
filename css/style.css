@@ -1,45 +1,150 @@
-h1 {
-    color: blue;
-    font-size: 30px;
-}
-h2 {
-    color: red;
-    font-size: 25px;
-}
-h3 {
-    color: purple;
-    font-size: 22px;
-}
-#listing {
-    color: green;
-    font-size: 15px;
-}
-body {
-    font-family: "Trebuchet MS", Helvetica, sans-serif;
-    font-size: 20px;
-    background-color: powderblue;
-}
-b {
-    font-size: 21px;
-}
-ul {
-    list-style-type: square;
-}
-table {
-    width: 100%;
-}
-td:nth-child(1) {
-    text-align: left;
-}
-td:nth-child(2) {
-    text-align: right;
-}
-#opleidingen {
+/* Van boven naar onder */
+
+/* Body */
+/* Header */
+/* Constantinus */
+    header {
+        
+    }
+    h2 {
+        text-align: center;
+    }
+    p {
+        text-align: center;
+        width: 50%;
+    }
+    img {
+        /*align-items: right;*/
+        margin-left: 200px;
+        transform: scale(0.25,0.25);
+    }
+    button {
+        text-decoration: none;
+        padding: 15px 20px 15px 20px;
     
-}
-#werkervaringen {
+        background-color:#F78154;
+        border-radius: 3px;
+        color: white;
+        margin-bottom:20px;
+        
+        width: 150px;
+        /* Center */
+        margin-left: auto;
+        margin-right: auto;
+    }
 
-}
-#vrije_tijd {
 
-}
+
+/* Main */
+/* Mathieu*/
+    .details {
+        background-image: url("../images/details.png");
+        background-repeat: no-repeat;
+        /*background-size: 1280px 200px;*/
+        text-align: center;
+        align-items: center;
+    }
+    h2.details {
+
+    }
+
+
+ 
+
+    /* Vakjes info */
+    .vakjes {
+        text-align: center;
+        align-items: center;
+    }
+
+    .subvakjes {
+        float: left;
+        width: 200px;
+        min-height: 200px;
+        margin: 20px;
+    }
+
+    h5 {
+        color: white;
+    }
+
+
+    h5.subvakjes {
+        color: white;
+
+    }
+    content.subvakjes {
+        color: white;
+    }
+
+    .enter {
+        clear: both;
+        width: 200px;
+        min-height: 200px;
+        margin: 20px;
+    }
+
+    .titel-dm {
+        text-decoration: none;
+        padding: 15px 20px 15px 20px;
+    
+        background-color:#F78154;
+        border-radius: 3px;
+        color: white;
+        margin-bottom:20px;
+        
+        width: 150px;
+        /* Center */
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .streep {
+        width: 53px;
+        height: 0;
+        border: 1px solid #ff0000;
+        margin: 3px;
+        display:inline-block;
+    }
+
+/* Sven */
+    dm {
+        font-family: 'Goldman', cursive; /* doet niets */
+        background-image: url("../images/dm.png");
+        background-repeat: no-repeat;
+        /*background-size: 1280px 200px;*/
+        text-align: center;
+        align-items: center;
+        width: 55%;
+    }
+
+    vraag1 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    vraag2 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    input[type=submit] {
+    font-family: 'Goldman', cursive;
+    background-color: #b3b3b3;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    float: center;
+    font-size: 30px;
+    }
+
+
+/* Footer */
+
+
+
+
+
+
